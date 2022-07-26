@@ -1,0 +1,50 @@
+.bg-panda {
+    background-color: rgb(215, 247, 248) !important;
+}
+
+.bg-colone {
+    background-color: rgb(214, 255, 214) !important;
+}
+
+.bg-coltwo {
+    background-color: rgb(248, 215, 221);
+}
+
+.bg-colthree {
+    background-color: rgb(179, 179, 255);
+}
+
+.bg-colfour {
+    background-color: rgb(252, 189, 202);
+}
+
+.bg-colfive {
+    background-color: rgb(249, 255, 196);
+}
+
+.bg-colsix {
+    background-color: rgb(212, 212, 212);
+}
+
+.inner {
+    overflow: hidden !important;
+}
+
+.inner>img {
+    transition: all 1.5s ease !important;
+    ;
+}
+
+.inner:hover>img {
+    transform: scale(1.2) !important;
+    ;
+}
+
+.Sony {
+    transform: translate(50px);
+    transition: transform 10s ease-in-out;
+}
+
+.form {
+    line-height: 20px;
+}
