@@ -55,9 +55,9 @@
                                     Products
                                 </a>
                                 <ul class="dropdown-menu bg-primary">
-                                    <li><a class="dropdown-item" href="#">Bags</a></li>
-                                    <li><a class="dropdown-item" href="#">Shoes</a></li>
-                                    <li><a class="dropdown-item" href="#">Jackets</a></li>
+                                    <li><a class="dropdown-item" href="#Bags">Bags</a></li>
+                                    <li><a class="dropdown-item" href="#Shoes">Shoes</a></li>
+                                    <li><a class="dropdown-item" href="#TV">Televisions</a></li>
                                     <li><a class="dropdown-item" href="#">Game Hardware</a></li>
                                 </ul>
                             </li>
@@ -77,6 +77,10 @@
                                             Telegram</a> </li>
 
                                 </ul>
+                            </li>
+                            <li class="nav-item">
+                                <button class="bg-transparent rounded-3"><a class="nav-link active" href="#Sign-Up">Sign
+                                        Up</a></button>
                             </li>
                         </ul>
 
@@ -120,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item active">
+                <div class="carousel-item ">
                     <div>
                         <div class="row align-items-center">
                             <div class="col-lg-7">
@@ -137,7 +141,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item active">
+                <div class="carousel-item ">
                     <div>
                         <div class="row align-items-center">
                             <div class="col-lg-7">
@@ -154,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item active">
+                <div class="carousel-item ">
                     <div>
                         <div class="row align-items-center">
                             <div class="col-lg-7">
@@ -171,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item active">
+                <div class="carousel-item ">
                     <div>
                         <div class="row align-items-center">
                             <div class="col-lg-7">
@@ -192,16 +196,7 @@
             </div>
 
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+
     </section>
 
     <section class="container">
@@ -276,7 +271,7 @@
         </div>
     </section>
 
-    <section class="container my-5">
+    <section class="container my-5" id="Shoes">
         <h1>Shoes</h1>
         <div class="row align-items-center justify-content-evenly">
             <div class="col-lg-4 col-md-6 col-sm-12 my-3 card shadow-lg rounded-3 bg-panda" style="width: 22rem;">
@@ -315,7 +310,7 @@
         </div>
     </section>
 
-    <section class="container my-5">
+    <section class="container my-5" id="Bags">
         <h1>Bags</h1>
         <div class="row  align-items-center justify-content-evenly">
             <div class="col-lg-4 col-md-6 col-sm-12 my-3 card shadow-lg rounded-3 bg-panda" style="width: 22rem;">
@@ -354,7 +349,7 @@
         </div>
     </section>
 
-    <section class="container my-5">
+    <section class="container my-5" id="TV">
 
         <h1>Televisions</h1>
         <div class="toast show bg-danger text-white my-5 Sony">
@@ -401,8 +396,23 @@
             </div>
         </div>
     </section>
+    <section class="container">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+                <li class="page-item">
+                    <a class="page-link">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
 
-    <section class="container my-5 bg-panda p-5">
+    <section class="container my-5 bg-panda p-5 rounded-5" id="Sign-Up">
 
         <form action="#">
             <legend class="fw-bold">Order Now via creating account.</legend>
@@ -428,6 +438,21 @@
         </form>
 
     </section>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between fixed-bottom">
+            <div class="coockie" title="Accept Our Cookies">
+                <img src="images/R.png" alt="">
+
+            </div>
+            <div class="coockie" title="Connect Via Messenger">
+                <img class="rounded-5" src="images/Messenger1.png" alt="">
+
+            </div>
+
+        </div>
+    </div>
+
+
 </body>
 
 </html>
